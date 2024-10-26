@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "whichkey"
+version = "0.1.0"
+description = ""
+authors = ["Erich Raschle <erichraschle@gmail.com>"]
+readme = "README.org"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pynput = "^1.7.7"
+pywinauto = "^0.6.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.1"
+ruff-lsp = "^0.0.58"
+pyright = "^1.1.386"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

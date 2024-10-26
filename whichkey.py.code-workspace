@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.analysis.diagnosticMode": "workspace",
+		"python.analysis.typeCheckingMode": "standard",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/poetry.lock": true,
+			"**/.ruff_cache": true
+		}
+	}
+}
